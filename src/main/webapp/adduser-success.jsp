@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Add User Success</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>Add Subject Success</title>
 </head>
+<style>
+    .alert {
+        padding: 20px;
+        background-color: #4CAF50;
+        color: white;
+    }
+</style>
+
 <body>
 
-<p>Record successfully saved!</p>
-<jsp:include page="userform.html"></jsp:include>
+    <div class="alert">
+        <strong>Success! </strong> Record successfully saved!
+    </div>
+    <jsp:include page="userform.html"></jsp:include>
 
 </body>
+
 </html>
